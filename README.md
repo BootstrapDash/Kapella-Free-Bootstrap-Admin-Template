@@ -6,12 +6,13 @@ aesthetics, and usability to ensure a fine user experience.
 
 Check out the preview of Kapella Admin template [here](http://www.templatewatch.com/kapella-free/template/index.html)
 
+[![N|Solid](preview.jpg)](http://www.templatewatch.com/kapella-free/template/index.html)
 
 <h2>How to use</h2>
 
 <ul>
   <li>
-    Download or Clone the depositary
+    Download or Clone the repositary
   </li>
   <li>
     Open the file template/index.html in a browser to view the demo
