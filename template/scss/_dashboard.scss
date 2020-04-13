@@ -190,4 +190,12 @@
 	}
  
 }
-
+.pro-banner {
+	margin-bottom: 1.5rem;
+	@media (max-width: 991px) {
+		margin-top: $horizontal-menu-height;
+	}
+	.pro-banner-bg {
+		background: $pro-banner;
+	}
+}

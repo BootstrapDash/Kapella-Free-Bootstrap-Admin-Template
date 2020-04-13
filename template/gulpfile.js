@@ -180,7 +180,18 @@ gulp.task('copyAddonsStyles', function() {
     return merge(aStyle1, aStyle2, aStyle9, aStyle10, aStyle11, aStyle12);
 });
 
+//Copy essential map files
+gulp.task('copyMapFiles', function() {
+    var map1 = gulp.src('node_modules/bootstrap/dist/js/bootstrap.min.js.map')
+        .pipe(gulp.dest('./vendors/base'));
+    var map2 = gulp.src('node_modules/@mdi/font/css/materialdesignicons.min.css.map')
+        .pipe(gulp.dest('./vendors/mdi/css'));
+    var map3 = gulp.src('node_modules/progressbar.js/dist/progressbar.min.js.map')
+        .pipe(gulp.dest('./vendors/progressbar.js'));
+    return merge(map1, map2, map3);
+});
+
 /*sequence for building vendor scripts and styles*/
-gulp.task('bundleVendors', gulp.series('clean:vendors', 'buildBaseVendorStyles','buildBaseVendorScripts', 'copyAddonsStyles', 'copyAddonsScripts'));
+gulp.task('bundleVendors', gulp.series('clean:vendors', 'buildBaseVendorStyles','buildBaseVendorScripts', 'copyAddonsStyles', 'copyAddonsScripts', 'copyMapFiles'));
 
 gulp.task('default', gulp.series('serve'));
