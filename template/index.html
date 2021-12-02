@@ -18,17 +18,21 @@
   </head>
   <body>
     <div class="container-scroller">
-				<div class="pro-banner" id="pro-banner">
-						<div class="card pro-banner-bg border-0 rounded-0">
-							<div class="card-body py-3 px-4 d-flex align-items-center justify-content-between flex-wrap">
-								<p class="mb-0 text-white font-weight-medium mb-2 mb-lg-0 mb-xl-0">Like what you see? Checkout our premium version for more.</p>
-								<div class="d-flex">
-									<a href="https://github.com/Bootstrapdash/Kapella-Free-Bootstrap-Admin-Template" target="_blank" class="btn btn-outline-light mr-2">Download free version</a>
-									<a href="http://www.bootstrapdash.com/demo/kapella/template/" target="_blank" class="btn btn-outline-light mr-2 bg-white text-dark">Upgrade to Pro</a>
-									<button id="bannerClose" class="btn border-0 p-0">
-										<i class="mdi mdi-close text-white"></i>
-									</button>
+				<div class="row p-0 m-0 proBanner" id="proBanner">
+					<div class="col-md-12 p-0 m-0">
+						<div class="card-body card-body-padding d-flex align-items-center justify-content-between">
+							<div class="ps-lg-1">
+								<div class="d-flex align-items-center justify-content-between">
+									<p class="mb-0 font-weight-medium me-3 buy-now-text">Free 24/7 customer support, updates, and more with this template!</p>
+									<a href="https://www.bootstrapdash.com/product/kapella-admin-pro/?utm_source=organic&utm_medium=banner&utm_campaign=buynow_demo" target="_blank" class="btn me-2 buy-now-btn border-0">Get Pro</a>
 								</div>
+							</div>
+							<div class="d-flex align-items-center justify-content-between">
+								<a href="https://www.bootstrapdash.com/product/kapella-admin-pro/"><i class="mdi mdi-home me-3 text-white"></i></a>
+								<button id="bannerClose" class="btn border-0 p-0">
+									<i class="mdi mdi-close text-white me-0"></i>
+								</button>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -38,11 +42,11 @@
         <div class="container-fluid">
           <div class="navbar-menu-wrapper d-flex align-items-center justify-content-between">
             <ul class="navbar-nav navbar-nav-left">
-              <li class="nav-item ml-0 mr-5 d-lg-flex d-none">
+              <li class="nav-item ms-0 me-5 d-lg-flex d-none">
                 <a href="#" class="nav-link horizontal-nav-left-menu"><i class="mdi mdi-format-list-bulleted"></i></a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link count-indicator dropdown-toggle d-flex align-items-center justify-content-center" id="notificationDropdown" href="#" data-toggle="dropdown">
+                <a class="nav-link count-indicator dropdown-toggle d-flex align-items-center justify-content-center" id="notificationDropdown" href="#" data-bs-toggle="dropdown">
                   <i class="mdi mdi-bell mx-0"></i>
                   <span class="count bg-success">2</span>
                 </a>
@@ -90,7 +94,7 @@
                 </div>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link count-indicator dropdown-toggle d-flex justify-content-center align-items-center" id="messageDropdown" href="#" data-toggle="dropdown">
+                <a class="nav-link count-indicator dropdown-toggle d-flex justify-content-center align-items-center" id="messageDropdown" href="#" data-bs-toggle="dropdown">
                   <i class="mdi mdi-email mx-0"></i>
                   <span class="count bg-primary">4</span>
                 </a>
@@ -137,7 +141,7 @@
               <li class="nav-item dropdown">
                 <a href="#" class="nav-link count-indicator "><i class="mdi mdi-message-reply-text"></i></a>
               </li>
-              <li class="nav-item nav-search d-none d-lg-block ml-3">
+              <li class="nav-item nav-search d-none d-lg-block ms-3">
                 <div class="input-group">
                     <div class="input-group-prepend">
                       <span class="input-group-text" id="search">
@@ -157,7 +161,7 @@
                   <button type="button" class="btn btn-inverse-primary btn-sm">Product </button>
                 </li>
                 <li class="nav-item dropdown d-lg-flex d-none">
-                  <a class="dropdown-toggle show-dropdown-arrow btn btn-inverse-primary btn-sm" id="nreportDropdown" href="#" data-toggle="dropdown">
+                  <a class="dropdown-toggle show-dropdown-arrow btn btn-inverse-primary btn-sm" id="nreportDropdown" href="#" data-bs-toggle="dropdown">
                   Reports
                   </a>
                   <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list" aria-labelledby="nreportDropdown">
@@ -176,7 +180,7 @@
                   <button type="button" class="btn btn-inverse-primary btn-sm">Settings</button>
                 </li>
                 <li class="nav-item nav-profile dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="profileDropdown">
+                  <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" id="profileDropdown">
                     <span class="nav-profile-name">Johnson</span>
                     <span class="online-status"></span>
                     <img src="images/faces/face28.png" alt="profile"/>
@@ -289,7 +293,7 @@
 										<button type="button" class="btn bg-white btn-icon">
 											<i class="mdi mdi-view-grid text-success"></i>
 									</button>
-										<button type="button" class="btn bg-white btn-icon ml-2">
+										<button type="button" class="btn bg-white btn-icon ms-2">
 											<i class="mdi mdi-format-list-bulleted font-weight-bold text-primary"></i>
 										</button>
 								</div>
@@ -297,19 +301,19 @@
 						</div>
 						<div class="col-sm-6">
 							<div class="d-flex align-items-center justify-content-md-end">
-								<div class="pr-1 mb-3 mb-xl-0">
+								<div class="pe-1 mb-3 mb-xl-0">
 										<button type="button" class="btn btn-outline-inverse-info btn-icon-text">
 											Feedback
 											<i class="mdi mdi-message-outline btn-icon-append"></i>                          
 										</button>
 								</div>
-								<div class="pr-1 mb-3 mb-xl-0">
+								<div class="pe-1 mb-3 mb-xl-0">
 										<button type="button" class="btn btn-outline-inverse-info btn-icon-text">
 											Help
 											<i class="mdi mdi-help-circle-outline btn-icon-append"></i>                          
 									</button>
 								</div>
-								<div class="pr-1 mb-3 mb-xl-0">
+								<div class="pe-1 mb-3 mb-xl-0">
 										<button type="button" class="btn btn-outline-inverse-info btn-icon-text">
 											Print
 											<i class="mdi mdi-printer btn-icon-append"></i>                          
@@ -432,7 +436,7 @@
 												<h4 class="card-title mb-2">Sales Difference</h4>
 												<div class="dropdown">
 													<a href="#" class="text-success btn btn-link  px-1"><i class="mdi mdi-refresh"></i></a>
-													<a href="#" class="text-success btn btn-link px-1 dropdown-toggle dropdown-arrow-none" data-toggle="dropdown" id="settingsDropdownsales">
+													<a href="#" class="text-success btn btn-link px-1 dropdown-toggle dropdown-arrow-none" data-bs-toggle="dropdown" id="settingsDropdownsales">
 														<i class="mdi mdi-dots-horizontal"></i></a>
 														<div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="settingsDropdownsales">
 															<a class="dropdown-item">
@@ -449,16 +453,16 @@
 											<div>
 												<ul class="nav nav-tabs tab-no-active-fill" role="tablist">
 													<li class="nav-item">
-														<a class="nav-link active pl-2 pr-2" id="revenue-for-last-month-tab" data-toggle="tab" href="#revenue-for-last-month" role="tab" aria-controls="revenue-for-last-month" aria-selected="true">Revenue for last month</a>
+														<a class="nav-link active ps-2 pe-2" id="revenue-for-last-month-tab" data-bs-toggle="tab" href="#revenue-for-last-month" role="tab" aria-controls="revenue-for-last-month" aria-selected="true">Revenue for last month</a>
 													</li>
 													<li class="nav-item">
-														<a class="nav-link pl-2 pr-2" id="server-loading-tab" data-toggle="tab" href="#server-loading" role="tab" aria-controls="server-loading" aria-selected="false">Server loading</a>
+														<a class="nav-link ps-2 pe-2" id="server-loading-tab" data-bs-toggle="tab" href="#server-loading" role="tab" aria-controls="server-loading" aria-selected="false">Server loading</a>
 													</li>
 													<li class="nav-item">
-														<a class="nav-link pl-2 pr-2" id="data-managed-tab" data-toggle="tab" href="#data-managed" role="tab" aria-controls="data-managed" aria-selected="false">Data managed</a>
+														<a class="nav-link ps-2 pe-2" id="data-managed-tab" data-bs-toggle="tab" href="#data-managed" role="tab" aria-controls="data-managed" aria-selected="false">Data managed</a>
 													</li>
 													<li class="nav-item">
-														<a class="nav-link pl-2 pr-2" id="sales-by-traffic-tab" data-toggle="tab" href="#sales-by-traffic" role="tab" aria-controls="sales-by-traffic" aria-selected="false">Sales by traffic</a>
+														<a class="nav-link ps-2 pe-2" id="sales-by-traffic-tab" data-bs-toggle="tab" href="#sales-by-traffic" role="tab" aria-controls="sales-by-traffic" aria-selected="false">Sales by traffic</a>
 													</li>
 												</ul>
 												<div class="tab-content tab-no-active-fill-tab-content">
@@ -508,7 +512,7 @@
 													<p class="text-dark">Monday 3.00 PM</p>
 													<div class="d-lg-flex align-items-baseline mb-3">
 														<h1 class="text-dark font-weight-bold">23<sup class="font-weight-light"><small>o</small><small class="font-weight-medium">c</small></sup></h1>
-														<p class="text-muted ml-3">Partly cloudy</p>
+														<p class="text-muted ms-3">Partly cloudy</p>
 													</div>
 												</div>
 												<div class="col-lg-4">
@@ -566,7 +570,7 @@
 														<h4 class="card-title mb-0">Visits Today</h4>
 														<div class="dropdown">
 															<a href="#" class="text-success btn btn-link  px-1"><i class="mdi mdi-refresh"></i></a>
-															<a href="#" class="text-success btn btn-link px-1 dropdown-toggle dropdown-arrow-none" data-toggle="dropdown" id="profileDropdownvisittoday"><i class="mdi mdi-dots-horizontal"></i></a>
+															<a href="#" class="text-success btn btn-link px-1 dropdown-toggle dropdown-arrow-none" data-bs-toggle="dropdown" id="profileDropdownvisittoday"><i class="mdi mdi-dots-horizontal"></i></a>
 															<div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="profileDropdownvisittoday">
 																<a class="dropdown-item">
 																	<i class="mdi mdi-grease-pencil text-primary"></i>
@@ -676,7 +680,7 @@
 								<div class="card-body">
 									<div class="d-flex align-items-center justify-content-between">
 										<h4 class="card-title">Support Tracker</h4>
-										<h4 class="text-success font-weight-bold">Tickets<span class="text-dark ml-3">163</span></h4>
+										<h4 class="text-success font-weight-bold">Tickets<span class="text-dark ms-3">163</span></h4>
 									</div>
 									<div id="support-tracker-legend" class="support-tracker-legend"></div>
 									<canvas id="supportTracker"></canvas>
@@ -703,8 +707,8 @@
 				<footer class="footer">
           <div class="footer-wrap">
             <div class="d-sm-flex justify-content-center justify-content-sm-between">
-              <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © bootstrapdash.com 2020</span>
-              <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center"> Free <a href="https://www.bootstrapdash.com/" target="_blank">Bootstrap dashboard templates</a> from Bootstrapdash.com</span>
+              <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">Copyright © <a href="https://www.bootstrapdash.com/" target="_blank">bootstrapdash.com </a>2021</span>
+              <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">Only the best <a href="https://www.bootstrapdash.com/" target="_blank"> Bootstrap dashboard </a> templates</span>
             </div>
           </div>
         </footer>
@@ -730,6 +734,7 @@
 		<script src="vendors/chartjs-plugin-datalabels/chartjs-plugin-datalabels.js"></script>
 		<script src="vendors/justgage/raphael-2.1.4.min.js"></script>
 		<script src="vendors/justgage/justgage.js"></script>
+    <script src="js/jquery.cookie.js" type="text/javascript"></script>
     <!-- Custom js for this page-->
     <script src="js/dashboard.js"></script>
     <!-- End custom js for this page-->

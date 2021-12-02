@@ -34,7 +34,7 @@
 		visibility: hidden;
 		&:checked {
 			+.toggle-slider {
-				background-color: theme-color(primary);
+				background-color: $primary;
 				&:before {
 					-webkit-transform: translateX(23px);
 					-ms-transform: translateX(23px);
@@ -52,7 +52,7 @@ $value in $theme-colors {
 			input {
 				&:checked {
 					+.toggle-slider {
-						background-color: theme-color($color);
+						background-color: $value;
 					}
 				}
 			}

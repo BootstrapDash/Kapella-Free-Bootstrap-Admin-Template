@@ -4,7 +4,7 @@
 	li {
 		display: flex;
 		align-items: center;
-		color: theme-color(dark);
+		color: $dark;
 		font-size: .875rem;
 		span {
 			width: 10px;
@@ -46,7 +46,7 @@
 	position: absolute;
 	bottom: 24px;
 	left: 15px;
-	color: theme-color(dark);
+	color: $dark;
 	text-transform: uppercase;
 }
 .climate-info-border {
@@ -109,7 +109,7 @@
 		.icon-inside-circle {
 			width: 83px;
 			height: 83px;
-			background: lighten(theme-color(danger), 10%);
+			background: lighten($danger, 10%);
 			border-radius: 100%;
 			text-align: center;
 			color: $white;
@@ -159,7 +159,7 @@
 		height: 5px;
 		width: 100%;
 		border-radius: 0 0 6px 6px;
-		background-color: theme-color(primary);
+		background-color: $primary;
 		position: absolute;
 		left: 0;
 		bottom: 0;
@@ -171,7 +171,7 @@
 		height: 5px;
 		width: 100%;
 		border-radius: 0 0 6px 6px;
-		background-color: theme-color(success);
+		background-color: $success;
 		position: absolute;
 		left: 0;
 		bottom: 0;

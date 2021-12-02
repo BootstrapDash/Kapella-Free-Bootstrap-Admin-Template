@@ -5,3 +5,15 @@
   border: 1px solid $border;
   color: $color;
 }
+
+//Badge vriations
+@mixin badge-variations($color) {
+	border: 1px solid $color;
+	color: $color; 
+}
+
+// Badge outlined variations
+@mixin badge-outline-variations($color) {
+	color: $color;
+	border: 1px solid $color;
+}

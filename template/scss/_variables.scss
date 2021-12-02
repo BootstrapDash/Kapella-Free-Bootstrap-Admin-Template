@@ -39,6 +39,24 @@ $colors: (
   black:            #000000
 );
 
+$blue:             $blue;
+$indigo:           $indigo;
+$purple:           $purple;
+$pink:             $pink;
+$red:              $red;
+$orange:           $orange;
+$yellow:           $yellow;
+$green:            $green;
+$teal:             $teal;
+$cyan:             $cyan;
+$white:            $white;
+$gray:             #434a54;
+$gray-light:       #aab2bd;
+$gray-lighter:     #e8eff4;
+$gray-lightest:    #e6e9ed;
+$gray-dark:        #0f1531;
+$black:            #000000;
+
 
 $theme-colors: (
   primary:         #464dee,
@@ -50,6 +68,15 @@ $theme-colors: (
   light:           #d8d8d8,
   dark:            #001737
 );
+
+$primary:         #464dee;
+$secondary:       #d8d8d8;
+$success:         #0ddbb9;
+$info:            #0ad7f7;
+$warning:         #fcd53b;
+$danger:          #ee5b5b;
+$light:           #d8d8d8;
+$dark:            #001737;
 
 $theme-gradient-colors: (
   primary:         linear-gradient(230deg, #759bff, #843cf6),
@@ -173,7 +200,7 @@ $dropdown-link-hover-bg: #eaeaf1;
 
 //////// TABLES ////////
 $table-color: $body-color;
-$table-accent-bg: $content-bg;
+$table-accent-bg: transparent;
 $table-hover-bg:  #eaeaf1;
 $table-cell-padding: 1.25rem .9375rem;
 $table-border-color: $border-color;
@@ -240,11 +267,12 @@ $horizontal-bottom-menu-item-active-color: #464dee;
 $horizontal-menu-submenu-color: #202339;
 $horizontal-bottom-menu-item-font-size: 0.937rem;
 $horizontal-bottom-menu-item-hover-bg: transparent;
-$horizontal-bottom-menu-item-hover-color: theme-color(primary);
+$horizontal-bottom-menu-item-hover-color: $primary;
 $horizontal-menu-item-padding: .75rem 0;
 $horizontal-menu-icon-font-size: 1.125rem;
 $horizontal-menu-submenu-item-padding: .85rem 0;
 $horizontal-menu-box-shadow: 0 19px 34px -15px #f1f6f8;
 $navbar-height: 56px;
 ////////   NAVBAR  //////////////
-$pro-banner:linear-gradient(230deg, #7A3EC8, #297FC8),
+$pro-banner:linear-gradient(230deg, #7A3EC8, #297FC8);
+$buy-nowbanner-padding-top:60px;
